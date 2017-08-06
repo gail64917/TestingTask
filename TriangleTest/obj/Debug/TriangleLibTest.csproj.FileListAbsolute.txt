@@ -8,3 +8,13 @@ C:\Users\Владимир\Desktop\TestingTask_Triangle\TriangleTest\obj\Debug\Tr
 C:\Users\Владимир\Desktop\TestingTask_Triangle\TriangleTest\obj\Debug\TriangleTest.dll
 C:\Users\Владимир\Desktop\TestingTask_Triangle\TriangleTest\obj\Debug\TriangleTest.pdb
 C:\Users\Владимир\Desktop\TestingTask_Triangle\TriangleTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\TriangleTest.dll
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\TriangleTest.pdb
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\TestingTask_Triangle.dll
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\TestingTask_Triangle.pdb
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\mydocuments\GitHub\TestingTask\TriangleTest\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\mydocuments\GitHub\TestingTask\TriangleTest\obj\Debug\TriangleLibTest.csprojResolveAssemblyReference.cache
+C:\mydocuments\GitHub\TestingTask\TriangleTest\obj\Debug\TriangleTest.dll
+C:\mydocuments\GitHub\TestingTask\TriangleTest\obj\Debug\TriangleTest.pdb

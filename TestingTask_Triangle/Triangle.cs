@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TriangleLib
 {
+    //класс Треугольника с длинами сторон любого типа, при условии что тип длины сторон IComparable (для сравнивания с 0) и не ссылочный
     public class Triangle<T> where T : struct, IComparable
     {
         private T sideA, sideB, sideC;
@@ -52,6 +53,7 @@ namespace TriangleLib
             }
         }
 
+        //конструктор обязан принимать три параметра: длины сторон треугольника
         public Triangle(T a, T b, T c)
         {
             SideA = a;
@@ -59,6 +61,7 @@ namespace TriangleLib
             SideC = c;
         }
 
+        //функция проверки на допустимость значения стороны. в противном случае пишет сообщение об ошибке в файл логов
         private bool SideIsValid(T arg)
         {
             try
@@ -72,12 +75,14 @@ namespace TriangleLib
             }
 
         }
+        //функция записи в файл логов ошибок
         private void ErrorLog(string ErrorString)
         {
             var file = new System.IO.StreamWriter("ErrorLog.txt", true);
             file.WriteLine(ErrorString);
             file.Close();
         }
+        //функция проеврки треугольника на правильность для тестов
         public bool IsRightTriangle()
         {
             T hypotenuse, cathet1, cathet2;
@@ -119,6 +124,7 @@ namespace TriangleLib
                 return false;
             }
         }
+        //функция проверки на правильность. в ходе проверки выясняется, какие из сторон - катеты, какие - гипотенузы. чтобы не повторять эти процедуры - функция выписывает катеты и гипотенузу во внешние переменные
         public bool IsRightTriangle(out T CathetAOut, out T CathetBOut, out T HypotenuseOut)
         {
             T hypotenuse, cathet1, cathet2;
@@ -169,6 +175,7 @@ namespace TriangleLib
                 return false;
             }
         }        
+        //для поиска площади требуется знать, какие из сторон катеты. это делает функция проверки треугольника на правильность. далее находится площадь 
         public float SquareRightTriangle()
         {
             T cathet1, cathet2, hypotenuse;
@@ -192,6 +199,7 @@ namespace TriangleLib
             }
 
         }
+        //вывод на консоль площади
         public void DisplaySquareConsole()
         {
             Console.WriteLine("Площадь треугольника {0}: {1}", this, SquareRightTriangle());
