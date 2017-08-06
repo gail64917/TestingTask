@@ -1,0 +1,5 @@
+C:\Users\Владимир\Desktop\TestingTask_Triangle\TestingTask_Triangle\bin\Debug\TestingTask_Triangle.dll
+C:\Users\Владимир\Desktop\TestingTask_Triangle\TestingTask_Triangle\bin\Debug\TestingTask_Triangle.pdb
+C:\Users\Владимир\Desktop\TestingTask_Triangle\TestingTask_Triangle\obj\Debug\TriangleLib.csprojResolveAssemblyReference.cache
+C:\Users\Владимир\Desktop\TestingTask_Triangle\TestingTask_Triangle\obj\Debug\TestingTask_Triangle.dll
+C:\Users\Владимир\Desktop\TestingTask_Triangle\TestingTask_Triangle\obj\Debug\TestingTask_Triangle.pdb
